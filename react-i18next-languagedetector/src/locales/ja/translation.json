@@ -1,0 +1,8 @@
+{
+  "welcome": "ようこそ",
+  "greeting": "こんにちは、{{name}}さん",
+  "messages": {
+    "unread": "未読メッセージが{{count}}件あります"
+  },
+  "richText": "これは<bold>太字</bold>のテキストです"
+}
