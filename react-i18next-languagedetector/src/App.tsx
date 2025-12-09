@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -18,6 +18,7 @@ function App() {
     <div>
       <h1>{t("welcome")}</h1>
       <p>{t("greeting", { name: "太郎" })}</p>
+      <Trans i18nKey="richText" components={{ bold: <strong /> }} />
       <div>
         <button onClick={() => changeLanguage("ja")}>日本語</button>
         <button onClick={() => changeLanguage("en")}>English</button>

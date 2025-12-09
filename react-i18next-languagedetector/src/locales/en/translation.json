@@ -1,0 +1,8 @@
+{
+  "welcome": "Welcome",
+  "greeting": "Hello, {{name}}",
+  "messages": {
+    "unread": "You have {{count}} unread message(s)"
+  },
+  "richText": "This is <bold>bold</bold> text"
+}
